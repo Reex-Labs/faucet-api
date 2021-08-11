@@ -67,6 +67,6 @@ app.listen(process.env.NODE_PORT, function () {
 });
 
 function validateAddress(address) {
-    var regex = /^cosmos\w{39}$/;
+    var regex = /^reex\w{39}$/;
     return regex.test(address)
 }
