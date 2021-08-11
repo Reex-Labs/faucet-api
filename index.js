@@ -62,7 +62,7 @@ app.get('/', (req, res) => {
     res.send('Hello! Is The <a href="http://reexcoin.com">REEX</a> faucet service! <a href="http://reexcoin.com">Go to REEX</a>')
 })
 
-app.listen(3000, function () {
+app.listen(process.env.NODE_PORT, function () {
     console.log("Server started");
 });
 
